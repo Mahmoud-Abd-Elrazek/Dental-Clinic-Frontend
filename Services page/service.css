@@ -1,0 +1,33 @@
+:root {
+   --bg-color:#ffffff;
+   --txt-color:#000;
+   --txt-color2:#393E46;
+   --blue-dark:#373B61;
+   --sky-clolor:#A7D5E5 ; 
+   --tmp-color:#FCEFE9;
+   --tmp2-color:#EDEFFE;
+}
+
+body {
+   height: 1000px;
+}
+
+.services {
+   height: auto;
+   padding: 0rem 12%;
+   background-color: var(--bg-color);
+}
+
+.title {
+   font-size: 3rem;
+   color: var(--sky-clolor);
+}
+
+.services > h2:nth-child(2) {
+   color: var(--blue-dark);
+}
+
+.services-box {
+   gap: 4rem;
+   margin-bottom: 5rem;
+}

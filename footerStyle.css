@@ -1,0 +1,120 @@
+
+:root {
+   --bg-color:#ffffff;
+   --txt-color:#000;
+   --txt-color2:#393E46;
+   --blue-dark:#373B61;
+   --sky-clolor:#A7D5E5 ; 
+   --tmp-color:#FCEFE9;
+   --tmp2-color:#EDEFFE;
+}
+
+.footer {
+   position: relative;
+   margin-top: 5rem;
+   height: 100vh;
+   background-color: var(--bg-color);
+   background-image: linear-gradient(
+      -95deg , var(--tmp-color) , var(--sky-clolor),var(--tmp-color)
+   );
+}
+
+.footer-info {
+   /* background-color: var(--sky-clolor); */
+   
+   padding: 6rem 12%;
+   font-size: 1.2rem;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   align-items: center;
+   flex: 1 1;
+
+}
+
+.footer-info > h2 {
+   max-width: 30rem;
+   letter-spacing: 1px;
+   color: var(--txt-color2);
+}
+
+.footer .footer-info button {
+   background: none;
+   outline: none;
+   border: none;
+}
+
+.footer-info > .btn > a  {
+   border-width:0.3rem ;
+}
+.footer .footer-links {
+   margin-top: 10rem;
+   padding: 0 12%;
+   /* background-color: rgba(255, 0, 0, 0.445); */
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.footer-links > .footer-logo {
+   max-width: 35rem;
+}
+.footer-links > .footer-logo > img {
+   width: 20rem;
+   margin-bottom: 3rem;
+}
+.footer-links > .footer-logo > p {
+   font-size: 1.8rem;
+   color: var(--txt-color2);
+   line-height: 1.4;
+}
+.footer-links > .footer-logo > .footer-social-icons {
+   margin-top: 2rem;
+}
+.footer-links > .footer-logo > .footer-social-icons > a {
+   border: 0.2rem solid var(--blue-dark);
+   display: inline-block;
+   padding: 0.5rem;
+   margin-right: 1.5rem;
+   border-radius: 0.4rem;
+}
+.footer-links > .footer-logo > .footer-social-icons > a > img {
+   width: 2rem;
+   height: 2rem;
+}
+.all-footer-links {
+   flex-grow: 1 ;
+   display: flex;
+   justify-content: space-around;
+}
+.footer-links .all-footer-links .headLinks {
+   font-size: 3rem;
+   font-weight: bold;
+   color: var(--blue-dark);
+   margin-bottom: 3rem;
+}
+.footer ul li::before {
+   display: none;
+   margin-bottom: 1.4rem;
+}
+.footer ul li a {
+   margin-bottom: 1.4rem;
+}
+
+.copyrigth {
+   padding: 2rem 0 ;
+   width: 100%;
+   /* background-color: var(--sky-clolor); */
+   background: #bdbdbd66;
+   bottom: 0;
+   left: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.copyrigth > p {
+   font-size: 2rem;
+   letter-spacing: .2rem;
+   font-weight: bold;
+   color: var(--blue-dark);
+   line-height: 1.8;
+}

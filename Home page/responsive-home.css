@@ -1,0 +1,246 @@
+:root {
+   --bg-color:#ffffff;
+   --txt-color:#000;
+   --txt-color2:#393E46;
+   --blue-dark:#373B61;
+   --sky-clolor:#A7D5E5 ; 
+   --tmp-color:#FCEFE9;
+   --tmp2-color:#EDEFFE;
+}
+* {
+   transition: 0.5s ;
+}
+@media screen and (max-width:1200px) {
+   .home img {
+      height: 50rem;
+      width: 50rem;
+  }
+}
+
+@media screen and (max-width:1050px) {
+   .home img {
+      height: 40rem;
+      width: 40rem;
+   }
+   .experince-box img {
+      width: 45rem;
+   }
+   .experince-info > h2 {
+      font-size: 2.4rem;
+      padding: 0rem 0 1.2rem 0;
+   }
+   .experince-info > p {
+      font-size: 1.2rem;
+   }
+   ul {
+      margin-top: 1.7rem;
+      list-style: none;
+   }
+   ul li {
+      font-size: 1.4rem;
+   }
+   ul li::before {
+      content: '';
+      position: absolute;
+      border: 4px solid;
+      border-color: transparent transparent transparent #64b5f669;
+      left: -15px;
+   }
+   .footer {
+      height: auto;
+      margin: 0;
+   }
+   .footer-info {
+      gap: 2rem;
+   }
+   .footer .footer-links {
+      flex-direction: column;
+   }
+   .footer .footer-links {
+      align-items: start;
+   }
+   .all-footer-links {
+      flex-grow: 1;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+   }
+   .copyrigth > p {
+      font-size: 1.5rem;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+   html {
+      font-size: 46%;
+   }
+}
+
+@media screen and (max-width:700px){
+   .nav-bar {
+      translate: -100%;
+      background-color: #ffffffc9;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      padding: 5rem ;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      transition: 0.5 ease-in;
+   }
+
+   .nav-bar > .expand {
+      transition: 0.5s;
+      display: block;
+   }
+
+   .expand-nav {
+      width: 100vw;
+      height: auto;
+      /* width: 400px; */
+   }
+
+   .nav-bar > button {
+      display: block;
+   }
+
+   .show-toggel {
+      translate: 0%;
+   }
+
+   .nav-bar a {
+      font-size: 2.5rem;
+      margin: 0;
+      padding: 1rem 2rem;
+      border: 1px solid transparent;
+      border-radius: 7px;
+      color: var(--blue-dark);
+   }
+   .nav-bar a:last-child {
+      border: none;
+   }
+   .nav-bar a:hover {
+      border-color:var(--sky-clolor) ;
+   }
+
+   .header .toggel  {
+      display: block;
+   }
+   .home {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .home .info h2 {
+      font-size: 4rem;
+   }
+   .home .info > p {
+      font-size: 2rem;
+      margin-top: 2.9rem;
+      margin-bottom: 1rem;
+   }
+   .home .info {
+      width: 100%;
+      padding: 1.5rem;
+   }
+   .home .info .btn > a {
+      font-size: 1.8rem;
+   }
+   .home img {
+      display: none;
+   }
+   section {
+      /* padding: 7rem 0%; */
+      padding: 7rem 5%;
+   }
+   .all-services {
+      padding: 0 ;
+   }
+   .all-services > .parent {
+      width: 100% ; 
+   }
+   .parent > .img {
+      width: 100%;
+   }
+   .parent > .img img {
+      width: 95%;
+   }
+   .experince .experince-box {
+      flex-direction: column;
+      height: auto;
+      width: 100%;
+      gap: 2rem;
+   }
+   .all-services > .parent > .info-services {
+      width: 100%;
+      padding: 0 2%;
+   }
+   .all-services > .parent > .info-services > h2 {
+      font-size: 4rem;
+   }
+   .all-services > .parent > .info-services > p {
+      font-size: 2rem;
+   }
+   .experince-info > p {
+    font-size: 1.6rem;
+    padding: 0.5rem 0;
+   }
+   .experince-box img {
+      width: 90%;
+      border: 3px solid transparent;
+      outline: 3px solid var(--blue-dark);
+      border-radius: 2%;
+   }
+   .experince-info > .btn {
+      position: static;
+   }
+   .experince-info > h2 {
+      padding: 2rem 0 1.2rem 0;
+      font-size: 3.5rem;
+   }
+   ul {
+      margin: 1.7rem 0;
+   }
+   ul li {
+      font-size: 1.9rem;
+   }
+   ul li::before {
+      border-width: 7px;
+   }
+   .btn > a {
+      font-size: 1.5rem;
+   }
+   .testonomail .testonomail-box {
+      width: 80%;
+      min-height: 30rem;;
+      height: auto;
+   }
+   .testonomail .testonomail-box p {
+      font-size: 1.89rem;
+   }
+   button.post {
+      /* bottom: 0;
+      right: 42%; */
+      right: 0;
+      top: calc(50% - 20px);
+   }   
+   button.pre {
+      /* bottom: 0;
+      left: 50%;
+      left:42%; */
+      left: 0;
+      top: calc(50% - 20px);
+   }
+   .all-footer-links {
+      justify-content: start;
+      flex-wrap: wrap;
+      gap: 4rem;
+   }
+
+   .footer .footer-links {
+      padding: 0 2%;
+   }
+}
