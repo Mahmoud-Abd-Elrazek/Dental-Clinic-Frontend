@@ -51,4 +51,12 @@ You can view the deployed version of the Dental Clinic website at the following 
 ![home6](https://github.com/user-attachments/assets/e93d51ba-0a53-4fed-8aa1-0803102ec0ba)
 
 ![home8](https://github.com/user-attachments/assets/1a4ec8ce-6f80-4916-b619-d7a0f2542acf)
-://github.com/user-attachments/assets/5389e1f6-df87-453e-80ed-313756ae1c2e)
+
+![image](https://github.com/user-attachments/assets/23b83f13-7a55-43a2-b08b-7ad86b74cbc7)
+
+![image](https://github.com/user-attachments/assets/ea0bb8e5-7d66-41ed-b1d1-c0149f629583)
+
+![image](https://github.com/user-attachments/assets/944e8c1f-b51e-4bb2-82ef-9cd78b902e8a)
+
+![image](https://github.com/user-attachments/assets/238990d8-c539-4c5c-a7a2-d10d71326e3a)
+
